@@ -27,6 +27,8 @@
       <div>
         <h4>Expanded Features</h4>
         <div>Additional Features</div>
+        <p>Notes: This demo and codebased were built to demostrate the decoupling between visual elements,</br> and gamplay logic to allow for easy reuse or updating.</p>
+        
         <ul>
           <li>
             BA Menu; Double click top left corner to access. Includes additional
@@ -34,26 +36,32 @@
           </li>
           <li>Additional gameplay scene; Football field goal kick</li>
         </ul>
+        
         <p>Repo:</p>
         <a href="https://github.com/gschoberth/bluewater-tech">Github Repo</a>
         <p>Demo Link:</p>
         <a href="https://gschoberth.github.io/bwt-hosted/features">Demo</a>
       </div>
       <div>
-        <h4>Very Expanded Features</h4>
+        <h4>Additional Features (Soccer Only)</h4>
         <p>
-          NOTE: Football is disabled in this demo. I got a little enthusiastic
-          with this version, and had some fun adding some additional gameplay
-          features.
+          Notes:  I got a little enthusiastic
+          with building this version, and had some fun adding some of the suggested additional gameplay</br>
+          features. This demo utilizes some additional features of Rive and it's ability to send / receive from a web app portion. </br>
+          The scoreboard that was added, is completely built in Rive, including the UI / buttons. Vue / JS portion listens for events fired from </br>
+          the Rive portion for gameplay resets and continuing through the three attempts.</br>
+          Vue / JS transmit back to the visual portion additional state updates for; attempt number, score, and toggling displaying elements. These are used</br>
+          within the Rive state machine for animation handling and transitions.
+        
+          <b>Football scene is disabled in this demo.</b>
         </p>
         <ul>
-          <li>This one includes a three attempts style gameplay</li>
-          <li>A results screen after each attempt.</li>
+          <li>Three attempts style gameplay</li>
+          <li>Results screen after each attempt showing score progress.</li>
         </ul>
         <p>Repo</p>
         <a href="https://github.com/gschoberth/bluewater-technical"
-          >Github Repo</a
-        >
+          >Github Repo</a>
         <p>Demo Link</p>
         <a href="https://gschoberth.github.io/bwt-hosted/fullblown">Demo</a>
       </div>
